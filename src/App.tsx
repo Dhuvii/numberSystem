@@ -171,7 +171,7 @@ function App() {
             className="w-full px-3 py-2 rounded-md border focus:outline-none text-sm text-gray-800"
             placeholder="Enter decimal value"
             value={value}
-            onChange={(e) => setValue(e.target.value)}
+            onChange={(e) => setValue(e.target.value.trim())}
           />
 
           <button
